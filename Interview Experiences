@@ -1,4 +1,5 @@
 Questions: AWS-Linux-DevOps
+____________________________
 
 > What is AWS Trusted advisor & what are its uses ?
 
@@ -16,6 +17,8 @@ How many number of servers are there in your peoject ?
 > How can we acheive high availability in your AWS environment?
 
 > How do you perform patching for the AWS servers/EC2, whether they are automated patching/ manual patching ?
+
+> What's the use case of Lambda functions in your project?
 
 > Explain the architecure of your AWS environment ?
 
