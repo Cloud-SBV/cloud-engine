@@ -1,199 +1,102 @@
-Questions: AWS-Linux-DevOps
-____________________________
-
-> What is AWS Trusted advisor & what are its uses ?
-
-> Define your peoject structure or project architecture ?
-
-> How many number of applications are there in your project &
-How many number of servers are there in your peoject ?
-
-> Define the environments in your project?
-
-> How many number of AWS accounts are there in your project, and are they sepcific to environments(dev,prod,stage) or specific to the applications?
-
-> When the server/application is DOWN, what are the necessary actions/trobleshooting steps that can be taken?
-
-> How can we acheive high availability in your AWS environment?
-
-> How do you perform patching for the AWS servers/EC2, whether they are automated patching/ manual patching ?
-
-> What's the use case of Lambda functions in your project?
-
-> Explain the architecure of your AWS environment ?
-
-> How can you define whether a subnet is private or public just by seeing the IP address ?
-
-> In Autoscaling group which instance will be scaled UP/Down ?
-
-> How can we define Autoscaling group ?
-
-> What are the properties in autoscaling group ?
-
-> Difference between NAT instance and NAT GAteways ?
-
-> What are the properties of NAT instance ?
-
-> What in NACL s ?
-
-> Explain Breif about LoadBalancers ?
-
-> What is ElasticBEanstalk ?
-
-> Explain about Kubernetes ?
-
-> in IAM what will we define and what's purpose of IAM in AWS ?
-
-> What is AWS SQS, and its functionality ?
-
-> To check the health of an instance how can we find it, how to identify whether an instance is running or not in the ELB ?
-
-> What are the different options for "useradd" command ?
-
-> How to check size of file using "ls" command ?
-
-> How will you connect to VPCs when there are multiple and that too with High capacuty servers ?
-
-> What is Subnets ?
-
-> what are the properties of Security Groups ?
-
-> How to restrict traffic at Subnet level ?
-
-> How to migrate Physical servers to Cloud/AWS ?
-
-> What are the steps while creating a Elastic Load Balancer?
-
-> What is Autoscaling Group and what are its benefits ?
-
-> What is VPC and what are  the benefits of creating a VPC ?
-
-> What is a Reserved Instance ?
-
-> How to Migrate when there is Huge server capacity ?
-
-> What's the difference between IaaS and PaaS?
-
-> What are the properties of an S3 Bucket?
-
-> Can we change/block the network traffic at instance level ?
-
-> What is the port number for Jenkins ? Can we change the port number? if yes where can we do that ?
-
-> What are "Update Stack" and "ChangeSets" ?
-
-> What can we monitor in Cloudwatch ?
-
-> What are the steps in creating a Load Balancer ?
-
-> What's the difference between IAM roles and IAM policies ?
-
-> What is Maven LifeCycle and Maven Goals ? test clean install package etc.,
-
-> What is Route53 and how to configure it?
-
-> What's the main purpose of maintaining a VPC?
-
-> How many security groups we can create in a VPC in AWS? 500 per account
-
-> In case of "Sticky Session" in an instance, how will you resolce that without shutting down the instance ?
-
-> What kind of block storage devices you use ? magnetic, gp2 ssd, hdd
-
-> what are the type of instances you use? t2.micro, c3.large, m4.xlarge etc.,
-
-> Can we change the instance type when its active ? Nope
-
-> What is Dedicated Hosts? 
-
-> What is Reserved instance and Spot instance ?
-
-> What is Machine image and Snapshot ?
-
-> Suppose , If you should terminate an instance created by stack, how can you identify and do that ?
-
-> What to do if I want to allow traffic to my instance only from a particular server/IP ? edit inbound rules in SG
-
-> What kind of automations you build on ec2 instances ?
-
-> What is webhooks in jenkins? - coding mechanism
-
-> What is IAM policy ?
-
-> What is object lifecycle in S3 ? std storage, std-IA, Glacier
-
-> What is key factors in IAM ?
-
-> What is basion hosting ? jump server
-
-> What is Cloudwatch events and alarms ?
-
-password age of user in linux
-
-how to lock/unlock user in linux
-
-Why does su fail with “authentication error”? [duplicate]
-
-how to check who rebooted the server in linux
-
-how to check if network interface is up in linux
-
-rpm database is corrupted attempting to rebuild it
-
-how to extend swap space in linux
-
-How to unmount a busy device
-
- usage trends history of cpu in linux
- 
-how to reduce cpu usage in linux
-
-how to reduce lvm size in linux
-
-how to recover deleted /etc/fstab file
-
-What is Assumerole in AWS
-
-what is s3 lifecycle
-
-important commands in docker
-
-how to configure/change jenkins port
-
-how to configure ci/cd pipeline
-
-env variables for handlers in ansible
-
-what is meant by nice value in top command
-
-what are all the columns in top command
-
-how to use setgid setuid in linux
-
-how to enter into single user mode in red hat linux & whats the use of it
-
-What is nested stack in cloud formation template
-
-What is transit gateway in aws
-
-What is code pipeline in aws
-
-What is AWS landing zone
-
-Explain aws waf
-
-how to implement security in aws
-
-How to implement security at rest
-
-How to implement security in flight
-
-What is log/logger account in aws and what are its uses
-
-How to make EC2 in pvt subnet publicly accessible
-
-What is vpc endpoint and what are its uses
-
-What is cloudburst in aws
-
-How to configure edge network using route53
+	Questions: AWS-Linux-DevOps
+	____________________________
+
+⦁	 What is AWS Trusted advisor & what are its uses ?
+⦁	 Define your peoject structure or project architecture ?
+⦁	 How many number of applications are there in your project &
+⦁	How many number of servers are there in your peoject ?
+⦁	 Define the environments in your project?
+⦁	 How many number of AWS accounts are there in your project, and are they sepcific to environments(dev,prod,stage) or specific to the applications?
+⦁	 When the server/application is DOWN, what are the necessary actions/trobleshooting steps that can be taken?
+⦁	 How can we acheive high availability in your AWS environment?
+⦁	 How do you perform patching for the AWS servers/EC2, whether they are automated patching/ manual patching ?
+⦁	 What's the use case of Lambda functions in your project?
+⦁	 Explain the architecure of your AWS environment ?
+⦁	 How can you define whether a subnet is private or public just by seeing the IP address ?
+⦁	 In Autoscaling group which instance will be scaled UP/Down ?
+⦁	 How can we define Autoscaling group ?
+⦁	 What are the properties in autoscaling group ?
+⦁	 Difference between NAT instance and NAT GAteways ?
+⦁	 What are the properties of NAT instance ?
+⦁	 What in NACL s ?
+⦁	 Explain Breif about LoadBalancers ?
+⦁	 What is ElasticBEanstalk ?
+⦁	 Explain about Kubernetes ?
+⦁	 in IAM what will we define and what's purpose of IAM in AWS ?
+⦁	 What is AWS SQS, and its functionality ?
+⦁	 To check the health of an instance how can we find it, how to identify whether an instance is running or not in the ELB ?
+⦁	 What are the different options for "useradd" command ?
+⦁	 How to check size of file using "ls" command ?
+⦁	 How will you connect to VPCs when there are multiple and that too with High capacuty servers ?
+⦁	 What is Subnets ?
+⦁	 what are the properties of Security Groups ?
+⦁	 How to restrict traffic at Subnet level ?
+⦁	 How to migrate Physical servers to Cloud/AWS ?
+⦁	 What are the steps while creating a Elastic Load Balancer?
+⦁	 What is Autoscaling Group and what are its benefits ?
+⦁	 What is VPC and what are  the benefits of creating a VPC ?
+⦁	 What is a Reserved Instance ?
+⦁	 How to Migrate when there is Huge server capacity ?
+⦁	 What's the difference between IaaS and PaaS?
+⦁	 What are the properties of an S3 Bucket?
+⦁	 Can we change/block the network traffic at instance level ?
+⦁	 What is the port number for Jenkins ? Can we change the port number? if yes where can we do that ?
+⦁	 What are "Update Stack" and "ChangeSets" ?
+⦁	 What can we monitor in Cloudwatch ?
+⦁	 What are the steps in creating a Load Balancer ?
+⦁	 What's the difference between IAM roles and IAM policies ?
+⦁	 What is Maven LifeCycle and Maven Goals ? test clean install package etc ?
+⦁	 What is Route53 and how to configure it?
+⦁	 What's the main purpose of maintaining a VPC?
+⦁	 How many security groups we can create in a VPC in AWS? 500 per account ?
+⦁	 In case of "Sticky Session" in an instance, how will you resolce that without shutting down the instance ?
+⦁	 What kind of block storage devices you use ? magnetic, gp2 ssd, hdd ?
+⦁	 what are the type of instances you use? t2.micro, c3.large, m4.xlarge etc. ?
+⦁	 Can we change the instance type when its active ? Nope
+⦁	 What is Dedicated Hosts? 
+⦁	 What is Reserved instance and Spot instance ?
+⦁	 What is Machine image and Snapshot ?
+⦁	 Suppose , If you should terminate an instance created by stack, how can you identify and do that ?
+⦁	 What to do if I want to allow traffic to my instance only from a particular server/IP ? edit inbound rules in SG
+⦁	 What kind of automations you build on ec2 instances ?
+⦁	 What is webhooks in jenkins? - coding mechanism 
+⦁	 What is IAM policy ?
+⦁	 What is object lifecycle in S3 ? std storage, std-IA, Glacier ?
+⦁	 What is key factors in IAM ?
+⦁	 What is basion hosting ? jump server
+⦁	 What is Cloudwatch events and alarms ?
+⦁	password age of user in linux ?
+⦁	how to lock/unlock user in linux ?
+⦁	Why does su fail with “authentication error”? [duplicate]
+⦁	how to check who rebooted the server in linux ?
+⦁	how to check if network interface is up in linux ?
+⦁	rpm database is corrupted attempting to rebuild it ?
+⦁	how to extend swap space in linux ?
+⦁	How to unmount a busy device ?
+⦁	usage trends history of cpu in linux ?
+⦁	how to reduce cpu usage in linux ?
+⦁	how to reduce lvm size in linux ?
+⦁	how to recover deleted /etc/fstab file ?
+⦁	What is Assumerole in AWS ?
+⦁	what is s3 lifecycle ?
+⦁	important commands in docker ?
+⦁	how to configure/change jenkins port ?
+⦁	how to configure ci/cd pipeline ?
+⦁	env variables for handlers in ansible ?
+⦁	what is meant by nice value in top command ?
+⦁	what are all the columns in top command ?
+⦁	how to use setgid setuid in linux ?
+⦁	how to enter into single user mode in red hat linux & whats the use of it ?
+⦁	What is nested stack in cloud formation template ?
+⦁	What is transit gateway in aws ?
+⦁	What is code pipeline in aws ?
+⦁	What is AWS landing zone ?
+⦁	Explain aws waf ?
+⦁	how to implement security in aws ?
+⦁	How to implement security at rest ?
+⦁	How to implement security in flight ?
+⦁	What is log/logger account in aws and what are its uses ?
+⦁	How to make EC2 in pvt subnet publicly accessible ?
+⦁	What is vpc endpoint and what are its uses ?
+⦁	What is cloudburst in aws ?
+⦁	How to configure edge network using route53 ?
